@@ -1,0 +1,27 @@
+# Ambientes Virtuais (O mais importante!)
+venv/
+env/
+.env
+bin/
+lib/
+share/
+Include/
+pyvenv.cfg
+
+# Pasta do seu ambiente específico
+ai_eng/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Dados e Modelos Pesados (Melhor não subir arquivos >50MB)
+*.csv
+*.json
+*.h5
+*.pth
+*.pkl
+
+# Sistema
+.DS_Store
+Thumbs.db
